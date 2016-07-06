@@ -13,7 +13,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         TestLibrary.getInstance().makeMeAwesome(this, "shikhin");
-        TestLibrary.getInstance().makeMeAwesome(this, "shikhin");
         //comment after first commit
     }
 }
